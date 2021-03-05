@@ -1,4 +1,6 @@
 # Master - Industrielle Bildverarbeitung
+![readme gif](https://github.com/ixLikro/master-ibv-python-stereo-vision/blob/master/resources/readme_gif.gif)
+
 ## Stereo Vision
 Takes a stereo image pair as input and calculates the corresponding disparity map plus a scaled 3d point cloud.
 
@@ -28,16 +30,16 @@ conda env create -f ibv_stereo.yml
     cd stereo_3d_cloud
     python main.py
     ```
-Linux user? Check out [Bug-Fixing](https://github.com/LuKlose/ibv_stereo#bug-fixing), in order to fix the pptk-Viewer.
+Linux user? Check out [Bug-Fixing](https://github.com/ixLikro/master-ibv-python-stereo-vision#bug-fixing), in order to fix the pptk-Viewer.
    
 ### Test data
 **Predefined test cases can be downloaded and started within the gui.**
 
 If you want to add you own images, you can do the following:
-1. create a sub directory inside your main directory (see [Config](https://github.com/LuKlose/ibv_stereo#config), for more infos)
+1. create a sub directory inside your main directory (see [Config](https://github.com/ixLikro/master-ibv-python-stereo-vision#config), for more infos)
 2. put your rectified images inside the new created sub directory
 3. create the stereoVisionJob.json and put it also in the sub directory. <br />
-   (see [stereoVisionJob.json](https://github.com/LuKlose/ibv_stereo#stereovisionjobjson), for more infos):
+   (see [stereoVisionJob.json](https://github.com/ixLikro/master-ibv-python-stereo-vision#stereovisionjobjson), for more infos):
 
 4. restart the gui
 5. start your case within the gui
