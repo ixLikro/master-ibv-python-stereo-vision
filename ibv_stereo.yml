@@ -1,0 +1,13 @@
+name: ibv_stereo
+channels:
+  - defaults
+  - anaconda-fusion
+dependencies:
+  - pip=21.0.1
+  - python=3.7
+  - pip:
+    - matplotlib==3.0.3
+    - numpy==1.19
+    - opencv-python==4.5.1.48
+    - PySimpleGUI==4.0.0
+    - pptk==0.1.0

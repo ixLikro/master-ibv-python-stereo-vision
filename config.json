@@ -1,0 +1,27 @@
+{
+  "_comment": "See README for more infos",
+  "baseURL": "http://ibv.schleesselmann.eu/",
+  "directory": "./../testdata",
+  "defaultParameter": {
+    "blockSize": 15,
+    "maxDisparity": 80,
+    "datasets": {
+      "daimler": {
+        "blockSize": 17,
+        "maxDisparity": 80
+      },
+      "middlebury": {
+        "blockSize": 23,
+        "maxDisparity": 96
+      },
+      "hci-bosch": {
+        "blockSize": 13,
+        "maxDisparity": 64
+      },
+      "kitti": {
+        "blockSize": 19,
+        "maxDisparity": 112
+      }
+    }
+  }
+}
