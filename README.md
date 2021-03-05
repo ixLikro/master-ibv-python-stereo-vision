@@ -13,7 +13,7 @@ The user can choose from the following algorithms:
 [@LuKlose](https://github.com/LuKlose) and [@kartoffelcake](https://github.com/kartoffelcake)
 
 ### Dependencies
-A conda environment file is included.
+A [conda environment file](https://github.com/ixLikro/master-ibv-python-stereo-vision/blob/master/ibv_stereo.yml) is included.
 You can install the needed environment with the following command:
 
 ```commandline
